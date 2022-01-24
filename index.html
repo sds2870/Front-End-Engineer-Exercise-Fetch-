@@ -9,7 +9,7 @@
 </head>
 <body>
     <h1>User Form Exercise</h1>
-    <form action="">
+    <form action="/" method="GET" id="form">
         <label for="name"><strong>Name:</strong></label>
         <input type="text" placeholder="What's your name?"
         required/>
@@ -20,10 +20,27 @@
         <input type="password" placeholder="Your password?"
         required/>
         <label for="occupation-select" ><strong>Occupation:</strong></label>
-        <select name="occupation" id="occupation-select"></select>
-            <option value=""></option>
+        <select name="occupation" id="occupation-select">
+        <option value="">--Please select an option--</option>
+        <option value="head-of-shrubbery">Head of Shrubbery</option>
+        <option value="interim-substitute-teacher">Interim Substitute Teacher</option>
+        <option value="water-softener">Water Softener</option>
+        <option value="listener-of-the-house">Listener of the House</option>
+        <option value="really-good-dancer">Really Good Dancer</option>
+        <option value="gainfully-unemployed">Gainfully Unemployed</option>
+        <option value="alexa-impersonator">Alexa Impersonator</option>
+        <option value="chard-farmer">Chard Farmer</option>
+        <option value="chief-frolicker-jolly">Chief Frolicker (Jolly)</option>
+        <option value="entry-level-seat-recliner">Entry-level Seat Recliner</option>
+        <option value="ceo-summer-internship">CEO (Summer Internship)</option>
+        <option value="widget-fabricator">Widget Fabricator</option>
+        <option value="underwater-basket-weaver">Underwater Basket Weaver</option>
+        </select>
         <label for="state"><strong>State:</strong></label>    
         <select name="state" id="state-select"></select>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
     </form>
     <script src="./code.js"></script>
 </body>
