@@ -245,5 +245,13 @@
     
 
 
-// Now, let's create a function for our fetch.
+let formSubmit = document.getElementById("form");
+const name = formSubmit.elements["name"];
+const email = formSubmit.elements["email"];
+const password = formSubmit.elements["password"];
+const occupation = formSubmit.elements["occupation-select"];
+const state = formSubmit.elements["state-select"]
 
+formSubmit.addEventListener("submit", function(event) {
+
+})
